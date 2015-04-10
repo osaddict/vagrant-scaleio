@@ -9,7 +9,8 @@ Vagrantfile to create a three-VM EMC ScaleIO lab setup.
 
 To use this, you'll need to complete a few steps:
 
-1. Click on the "Download ZIP" link on the right side of this page and unpack the zipfile somewhere on your computer, or use `git clone https://github.com/virtualswede/vagrant-scaleio.git` if you have Git installed.
+1. Install Vagrant, if you have not already. http://docs.vagrantup.com/v2/installation/
+2. Click on the "Download ZIP" link on the right side of this page and unpack the zipfile somewhere on your computer, or use `git clone https://github.com/virtualswede/vagrant-scaleio.git` if you have Git installed.
 2. Download the latest 1.31 ScaleIO bits from EMC as per instructions below (you'll need an EMC support account) 
 3. Place this zip file in the same directory as the `Vagrantfile` in this repo.
 4. Unzip the files in the zip, and place them next to the `Vagrantfile`.  On most modern \*nix/Mac you could do easily with `unzip ScaleIO_1.31_RHEL6_Download.zip && mv ScaleIO_1.31_RHEL6_Download/*.rpm ./`
